@@ -337,3 +337,128 @@
         }
     }
 }
+@media (max-width:428px) {
+    .section-products {
+
+        .container-products {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .product-zx9 {
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                text-align: center;
+                width: 327px;
+                height: 600px;
+
+
+                .image-zx9 {
+                    position: initial;
+                    
+                    img {
+                        width: 172px;
+                        height: 207px;
+                    }
+                }
+
+                .about-zx9 {
+                    position: initial;
+
+                    h1 {
+                        text-align: center;
+                        margin-top: 32px;
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 40px;
+                        letter-spacing: 1.29px;
+                    }
+
+                    p {
+                        max-width: 280px;
+                        align-items: center;
+                        margin-top: 24px;
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+
+                }
+            }
+
+            .product-zx7 {
+                max-width: 1110%;
+                width: 327px;
+                height: 320px;
+                background-image: url('../img/zx7.svg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 10px;
+
+                h1,
+                button {
+                    margin-left: 24px;
+                }
+            }
+
+            .product-yx1 {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+                img {
+                    width: 327px;
+                    height: 200px;
+                   
+                }
+
+                .about-yx1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-left: 24px;
+                    max-width: 100%;
+                    width: 327px;
+                    height: 200px;
+                    background-color: #F1F1F1;
+                    border-radius: 10px;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 38px;
+                        letter-spacing: 2px;
+                        color: #000;
+                    }
+
+                    button {
+                        margin-top: 32px;
+                        width: 160px;
+                        height: 48px;
+                        background-color: transparent;
+                        border: 1px solid #000;
+                        color: #000;
+                        font-size: 13px;
+                        font-weight: 700;
+                        line-height: 17px;
+                        letter-spacing: 1px;
+                    }
+
+                    button:hover {
+                        background-color: #000;
+                        transition: .5s ease;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
