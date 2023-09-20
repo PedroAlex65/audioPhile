@@ -116,12 +116,17 @@
             display: flex;
             gap: 30px;
 
+
             img {
                 width: 540px;
                 height: 320px;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
+            }
+
+            .yx1-tablet {
+                display: none;
             }
 
             .about-yx1 {
@@ -292,7 +297,15 @@
                 img {
                     width: 339px;
                     height: 320px;
-                   
+
+                }
+
+                .yx1-desktop {
+                    display: none;
+                }
+
+                .yx1-tablet {
+                    display: block;
                 }
 
                 .about-yx1 {
@@ -337,6 +350,7 @@
         }
     }
 }
+
 @media (max-width:428px) {
     .section-products {
 
@@ -361,7 +375,7 @@
 
                 .image-zx9 {
                     position: initial;
-                    
+
                     img {
                         width: 172px;
                         height: 207px;
@@ -397,7 +411,7 @@
                 max-width: 1110%;
                 width: 327px;
                 height: 320px;
-                background-image: url('../img/zx7.svg');
+                background-image: url('../img/zx7');
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -414,11 +428,17 @@
                 flex-direction: column;
                 gap: 24px;
 
-                img {
-                    width: 327px;
-                    height: 200px;
-                   
+
+                .yx1-desktop {
+                    display: none;
                 }
+
+                .yx1-tablet {
+                    display: block;
+                    width: 339px;
+                    height: 320px;
+                }
+
 
                 .about-yx1 {
                     display: flex;
