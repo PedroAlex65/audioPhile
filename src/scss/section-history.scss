@@ -35,6 +35,10 @@
             .model-tablet {
                 display: none;
             }
+
+            .model-smartphone {
+                display: none;
+            }
         }
     }
 }
@@ -76,6 +80,10 @@
             .model {
                 display: none;
             }
+
+            .model-smartphone {
+                display: none;
+            }
         }
     }
 }
@@ -110,10 +118,11 @@
         }
 
         .image-model {
-            .model {
+            .model-smartphone {
                 display: block;
             }
-            .model-tablet{
+
+            .model-tablet {
                 display: none;
             }
 
