@@ -30,15 +30,15 @@
             color: #000;
             opacity: 50%;
         }
+    }
 
-        .image-model {
-            .model-tablet {
-                display: none;
-            }
+    .image-model {
+        .model-tablet {
+            display: none;
+        }
 
-            .model-smartphone {
-                display: none;
-            }
+        .model-smartphone {
+            display: none;
         }
     }
 }
@@ -77,6 +77,9 @@
         }
 
         .image-model {
+            .model-tablet {
+                display: block;
+            }
             .model {
                 display: none;
             }
@@ -88,7 +91,7 @@
     }
 }
 
-@media (max-width:428px) {
+@media (max-width:600px) and (max-width:428px) {
     .history-audiophile {
         max-width: 100%;
         display: flex;
