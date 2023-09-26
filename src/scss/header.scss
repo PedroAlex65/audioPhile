@@ -138,7 +138,6 @@ header {
                 }
             }
 
-
             ul {
                 display: none;
                 position: relative;
@@ -233,7 +232,8 @@ header {
         }
     }
 
-    @media (max-width:428px) {
+    @media (max-width:600px),
+    (max-width:428px) {
         .nav {
             max-width: 360px;
             margin: 1px solid #fff;

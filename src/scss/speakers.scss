@@ -1,0 +1,892 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+// Nav
+header {
+    background-color: #0E0E0E;
+    height: 336px;
+
+    .container {
+        .nav {
+            max-width: 1440px;
+            margin: 1px solid #fff;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding-top: 32px;
+
+            .logo {
+                .menu {
+                    display: none;
+                }
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+                gap: 34px;
+
+                li {
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    color: #fff;
+                    cursor: pointer;
+                }
+
+                li:hover {
+                    color: #D87D4A;
+                    transition: 1s ease;
+                }
+            }
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+            letter-spacing: 1.43px;
+            text-align: center;
+            color: #fff;
+            position: relative;
+            top: 100px;
+        }
+    }
+}
+
+// Responsividade na tela de 834px
+@media(max-width:834px) {
+    header {
+        background-color: #0E0E0E;
+        height: 336px;
+
+        .container {
+            .nav {
+                max-width: 689px;
+                margin: 1px solid #fff;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                padding-top: 32px;
+
+                .logo {
+                    display: flex;
+                    gap: 42px;
+
+                    .menu {
+                        display: block;
+                        color: #fff;
+
+                    }
+                }
+
+                ul {
+                    display: none;
+                    list-style: none;
+                    gap: 34px;
+
+                    li {
+                        font-weight: 700;
+                        font-size: 13px;
+                        line-height: 25px;
+                        letter-spacing: 2px;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+
+                    li:hover {
+                        color: #D87D4A;
+                        transition: 1s ease;
+                    }
+                }
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                text-align: center;
+                color: #fff;
+                position: relative;
+                top: 100px;
+            }
+        }
+    }
+}
+
+// Responsividade na tela mobile:
+
+@media(max-width:600px), (max-width:428px) {
+    header {
+        background-color: #0E0E0E;
+        height: 336px;
+
+        .container {
+            .nav {
+                max-width: 347px;
+                margin: 1px solid #fff;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                padding-top: 32px;
+
+                .logo {
+                    display: flex;
+                    gap: 42px;
+
+                    .menu {
+                        display: block;
+                        color: #fff;
+
+                    }
+                }
+
+                ul {
+                    display: none;
+                    list-style: none;
+                    gap: 34px;
+
+                    li {
+                        font-weight: 700;
+                        font-size: 13px;
+                        line-height: 25px;
+                        letter-spacing: 2px;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+
+                    li:hover {
+                        color: #D87D4A;
+                        transition: 1s ease;
+                    }
+                }
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                text-align: center;
+                color: #fff;
+                position: relative;
+                top: 100px;
+            }
+        }
+    }
+}
+
+// Section products
+
+section {
+    margin-bottom: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+
+    .impar {
+        display: flex;
+        align-items: center;
+        gap: 200px;
+
+
+        .container-zx9 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f1f1;
+            width: 540px;
+            height: 560px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .zx9-specifications {
+            h2 {
+                font-size: 14px;
+                line-height: 19px;
+                letter-spacing: 10px;
+                color: #D87D4A;
+                font-weight: 400;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                color: #000;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                color: #000;
+                opacity: 50%;
+                max-width: 445px;
+            }
+
+            button {
+                width: 160px;
+                height: 48px;
+                background-color: #D87D4A;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 17px;
+                letter-spacing: 1px;
+                color: #fff;
+                border: none;
+            }
+
+
+        }
+    }
+
+    .par {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 200px;
+
+
+        .container-zx7 {
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 540px;
+            height: 560px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .zx7-specifications {
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                color: #000;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                color: #000;
+                opacity: 50%;
+                max-width: 445px;
+
+            }
+
+            button {
+                width: 160px;
+                height: 48px;
+                background-color: #D87D4A;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 17px;
+                letter-spacing: 1px;
+                color: #fff;
+                border: none;
+            }
+
+
+        }
+    }
+}
+
+@media(max-width:834px) {
+
+    section {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 160px;
+
+        .impar {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 52px;
+
+
+            .container-zx9 {
+                margin-top: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f1f1f1;
+                width: 689px;
+                height: 352px;
+
+                img {
+                    max-width: 100%;
+                    width: 202px;
+                    height: 243px;
+                }
+            }
+
+            .zx9-specifications {
+                text-align: center;
+
+                h2 {
+                    font-size: 14px;
+                    line-height: 19px;
+                    letter-spacing: 10px;
+                    color: #D87D4A;
+                    font-weight: 400;
+                }
+
+                h1 {
+                    margin-top: 16px;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 44px;
+                    letter-spacing: 1.43px;
+                    color: #000;
+                }
+
+                p {
+                    margin-top: 32px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #000;
+                    opacity: 50%;
+                    max-width: 572px;
+                }
+
+                button {
+                    margin-top: 24px;
+                    width: 160px;
+                    height: 48px;
+                    background-color: #D87D4A;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 17px;
+                    letter-spacing: 1px;
+                    color: #fff;
+                    border: none;
+                }
+
+
+            }
+        }
+
+        .par {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 52px;
+
+
+            .container-zx7 {
+                background-color: #f1f1f1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 689px;
+                height: 352px;
+
+                img {
+                    max-width: 100%;
+                    width: 202px;
+                    height: 243px;
+                }
+            }
+
+            .zx7-specifications {
+                text-align: center;
+
+                h1 {
+                    margin-top: 16px;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 44px;
+                    letter-spacing: 1.43px;
+                    color: #000;
+                }
+
+                p {
+                    margin-top: 32px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #000;
+                    opacity: 50%;
+                    max-width: 572px;
+                }
+
+                button {
+                    margin-top: 24px;
+                    width: 160px;
+                    height: 48px;
+                    background-color: #D87D4A;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 17px;
+                    letter-spacing: 1px;
+                    color: #fff;
+                    border: none;
+                }
+
+
+            }
+        }
+    }
+
+}
+
+@media(max-width:600px), (max-width:434px) {
+
+    section {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 160px;
+
+        .impar {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 32px;
+
+
+            .container-zx9 {
+                margin-top: 64px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f1f1f1;
+                width: 327px;
+                height: 352px;
+
+                img {
+                    max-width: 100%;
+                    width: 202px;
+                    height: 243px;
+                }
+            }
+
+            .zx9-specifications {
+                text-align: center;
+
+
+                h1 {
+                    margin-top: 24px;
+                    font-size: 28px;
+                    line-height: 38px;
+                }
+
+                p {
+                    margin-top: 24px;
+                    max-width: 327px;
+                }
+            }
+        }
+
+        .par {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+
+
+            .container-zx7 {
+                background-color: #f1f1f1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 327px;
+                height: 352px;
+
+                img {
+                    max-width: 100%;
+                    width: 202px;
+                    height: 243px;
+                }
+            }
+
+            .zx7-specifications {
+                text-align: center;
+
+                h1 {
+                    margin-top: 24px;
+                    font-size: 28px;
+                    line-height: 38px;
+                }
+
+                p {
+                    margin-top: 24px;
+                    max-width: 327px;
+                }
+            }
+
+        }
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    gap: 30px;
+
+
+    .headphones>img {
+        width: 90px;
+    }
+
+    .products {
+        width: 350px !important;
+        height: 204px !important;
+        border-radius: 10px;
+        background-color: #f1f1f1;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        img {
+            position: relative;
+            top: -80px;
+            max-width: 100%;
+        }
+
+        h3,
+        a {
+            position: relative;
+            top: -54px;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 1.29px;
+            color: #000;
+        }
+
+        a {
+            margin-top: 17px;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 17px;
+            letter-spacing: 1px;
+            color: #000;
+            opacity: 50%;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        a::after {
+            content: '>';
+            color: #D87D4A;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:834px) {
+    main {
+        margin: 148px;
+        gap: 10px;
+        width: 100%;
+        margin: 148px auto;
+
+
+        .headphones>img {
+            width: 90px;
+        }
+
+        .products {
+            width: 223px !important;
+            height: 165px !important;
+            border-radius: 10px;
+            background-color: #f1f1f1;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+            img {
+                position: relative;
+                top: -80px;
+                max-width: 100%;
+            }
+
+            h3,
+            a {
+                position: relative;
+                top: -54px;
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 1.29px;
+                color: #000;
+            }
+
+            a {
+                margin-top: 17px;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 17px;
+                letter-spacing: 1px;
+                color: #000;
+                opacity: 50%;
+                text-decoration: none;
+                text-align: center;
+            }
+
+            a::after {
+                content: '>';
+                color: #D87D4A;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(max-width:600px), (max-width:428px) {
+    main {
+        margin: 148px;
+        gap: 68px;
+        width: 100%;
+        margin: 92px auto;
+        flex-direction: column;
+
+
+        .headphones>img {
+            width: 90px;
+        }
+
+        .products {
+            width: 327px !important;
+            height: 165px !important;
+            border-radius: 10px;
+            background-color: #f1f1f1;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+            img {
+                position: relative;
+                top: -60px;
+                max-width: 100%;
+            }
+
+            h3,
+            a {
+                position: relative;
+                top: -26px;
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 1.29px;
+                color: #000;
+            }
+
+            a {
+                margin-top: 17px;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 17px;
+                letter-spacing: 1px;
+                color: #000;
+                opacity: 50%;
+                text-decoration: none;
+                text-align: center;
+            }
+
+            a::after {
+                content: '>';
+                color: #D87D4A;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// History
+
+.history-audiophile {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 125px;
+    margin-top: 200px;
+
+    .about-audiophile {
+        h1 {
+            text-transform: uppercase;
+            max-width: 445px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+            letter-spacing: 1.43px;
+            color: #000;
+
+            span {
+                color: #D87D4A;
+            }
+        }
+
+        p {
+            margin-top: 32px;
+            max-width: 445px;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000;
+            opacity: 50%;
+        }
+    }
+
+    .image-model {
+        .model {
+            display: block;
+        }
+
+        .model-tablet {
+            display: none;
+        }
+
+        .model-smartphone {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:834px) {
+    .history-audiophile {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 63px;
+        margin-top: 0;
+
+        .about-audiophile {
+            text-align: center;
+
+            h1 {
+                margin-top: 0;
+                text-transform: uppercase;
+                max-width: 573px;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                margin-top: 32px;
+                max-width: 573px;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 25px;
+                color: #000;
+                opacity: 50%;
+            }
+        }
+
+        .image-model {
+            .model {
+                display: none;
+            }
+
+            .model-tablet {
+                display: block;
+            }
+
+            .model-smartphone {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width:600px) and (max-width:428px) {
+    .history-audiophile {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 40px;
+        margin-top: 0;
+
+        .about-audiophile {
+            text-align: center;
+
+            h1 {
+                margin-top: 0;
+                text-transform: uppercase;
+                max-width: 327px;
+                font-size: 28px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                margin-top: 32px;
+                max-width: 327px;
+
+            }
+        }
+
+        .image-model {
+            .model-smartphone {
+                display: block;
+            }
+
+            .model-tablet {
+                display: none;
+            }
+
+            img {
+                width: 327px;
+                height: 300px;
+            }
+        }
+    }
+}

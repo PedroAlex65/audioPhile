@@ -129,7 +129,7 @@ main {
     }
 }
 
-@media (max-width:428px) {
+@media(max-width:600px) ,(max-width:428px) {
     main {
         margin: 148px;
         gap: 68px;

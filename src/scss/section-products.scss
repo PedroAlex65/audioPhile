@@ -358,7 +358,7 @@
     }
 }
 
-@media (max-width:428px) {
+@media (max-width:600px) ,(max-width:428px) {
     .section-products {
 
         .container-products {
@@ -433,7 +433,7 @@
             .product-yx1 {
                 display: flex;
                 flex-direction: column;
-                gap: 0px;
+                gap: 24px;
 
 
                 .yx1-desktop {
@@ -442,12 +442,13 @@
 
                 .yx1-tablet {
                     display: none;
-                    width: 339px;
-                    height: 320px;
+                   
                 }
 
                 .yx1-smartphone {
                     display: block;
+                    width: 327px;
+                    height: 200px;
                 }
 
 
