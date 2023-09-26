@@ -30,6 +30,10 @@ header {
                 list-style: none;
                 gap: 34px;
 
+                a {
+                    text-decoration: none
+                }
+
                 li {
                     font-weight: 700;
                     font-size: 13px;
@@ -185,8 +189,8 @@ header {
 // Section products
 
 section {
+    margin-top: 160px;
     margin-bottom: 200px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
